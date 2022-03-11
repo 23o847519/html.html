@@ -1,7 +1,16 @@
 body {
-        background-image: url("https://creativity103.com/collections/GlitterGold/purple_glitter.jpg");
-        background-repeat: repeat-y;
-      }
+	background: url('resources/background.jpg') no-repeat black;
+	background-attachment: fixed;
+	background-position: bottom left;
+	color: white;
+}
+
+
+
+.content {
+	margin-left: 200px;
+	padding: 8px 8px 16px 16px;
+}
 
 
 
@@ -17,9 +26,3 @@ body {
 	margin: 0;
 }
 
-}
-
-.content {
-	margin-left: 180px;
-	padding: 8px 16px 8px 16px;
-}
